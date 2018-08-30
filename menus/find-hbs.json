@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "----------------Toggle find-hbs",
+        "command": "find-hbs:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "find-hbs",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "find-hbs:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
